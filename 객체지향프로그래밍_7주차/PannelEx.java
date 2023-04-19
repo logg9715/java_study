@@ -17,7 +17,8 @@ public class PannelEx extends JFrame{
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		Container con = this.getContentPane();
-		con.setLayout(new FlowLayout(FlowLayout.CENTER));
+		// 어차피 JPanel로 넣을거고 기본값은 borderlayout이라 필요 없음
+		//con.setLayout(new FlowLayout(FlowLayout.CENTER)); 
 		
 		JPanel pan =new JPanel();
 		
