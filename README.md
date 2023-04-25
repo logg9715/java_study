@@ -13,7 +13,7 @@ HashMap.remove(key);		데이터 삭제<br>
 HashMap.clear();			배열 초기화<br>
 
 
---------
+<hr>
 ## LinkedList 예제 (배열 수정하며 출력하기)
 - ArrayList와 비슷
 - 요소 객체들이 양방향으로 연결되어 관리됨
