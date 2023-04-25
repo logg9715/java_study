@@ -7,8 +7,8 @@
 - 특징 : 삽입 삭제 검색이 빠름
 
 ### 암기 항목
-HashMap.put(key, value);	데이터 추가
-HashMap.get(key);		데이터 출력
-HashMap.remove(key);		데이터 삭제
-HashMap.clear();			배열 초기화
+HashMap.put(key, value);	데이터 추가 <br>
+HashMap.get(key);		데이터 출력<br>
+HashMap.remove(key);		데이터 삭제<br>
+HashMap.clear();			배열 초기화<br>
 
