@@ -126,12 +126,12 @@
 ## [awt 종류](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/StuEx.java)
 - JLable(내용) 텍스트 표시
 - JButton(버튼표시) 버튼 생성<br>
- 		**액션 리스너 추가** (ActionListener라는 **인터페이스** 이용해서 **익명함수** 선언 : <br>
+ 		**액션 리스너 추가** : (ActionListener라는 **인터페이스** 이용해서 **익명함수** 선언 : <br>
  		JButton.addActionListener(new ActionListener() {<br>
 			public void actionPerformed(ActionEvent e) {<br>
 				(여기에 내용 추가)<br>
 			}<br>
 
 - JTextField(기본내용) 글자 작성 공간<br>
- 		JTextField.getText() 입력 글자 읽어오기 
+ 		**JTextField.getText()** 입력 글자 읽어오기 
 
