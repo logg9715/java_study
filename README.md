@@ -14,7 +14,7 @@
 <br><br><br>
 
 
-## ArrayList 예제 (이름을 입력받아서 가장 긴 값 출력)
+## [ArrayList 예제](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/ArrayListEx.java) (이름을 입력받아서 가장 긴 값 출력)
 - 특징 : 스레드 동기화 기능 없음
 - 개발자가 직접 작성해야 함
 - 맨 뒤에 객체 추가 가능	.add(data)
