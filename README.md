@@ -83,7 +83,7 @@
 
 ### 암기 항목 (화면을 만들면 먼저 해야할 것들) : <br>
 **extends JFrame**<br>
- **setTitle(String) 제목**<br>
+ **setTitle(String)** 제목 지정<br>
  **setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);** 창 닫으면 종료<br>
  **setSize(int, int)** 창 크기 지정<br>
  **setVisible(true)** 화면에 보이게 하기<br>
@@ -104,3 +104,34 @@
  **grd.setVgap(int)** 상하 간격<br>
  **grd.setHgap(int)** 좌우 간격<br>
  <br><br><br>
+ 
+ 
+##  FlowLayout
+- 정렬 방향을 지정하고, 화면 크기에 따라 객체를 정렬시킨다.
+### 암기 항목 :
+- new FlowLayout(정렬방향, 수직간격, 수평간격) <br>
+- 정렬방향 => FlowLayout.RIGHT, .LEFT, .CENTER 등등.. <br>
+<br><br><br>
+
+### BorderLayout
+- 컨테이너 기본 레이아웃
+- BorderLayout.SOUTH, .NORTH, .EAST, .WEST, .CENTER 다섯 구역으로 분할
+<br><br><br>
+
+## JPanel
+- **JPanel pan = new JPanel();** 객체를 새로 생성하고 요소들을 여기에 저장 >> **pan.add(new JLabel("aa"));** 
+- 이후 마지막에만 JPanel 객체를 **con.add(pan)**로 컨테이너에 추가하면 됨.
+<br><br><br>
+
+## awt 종류
+- JLable(내용) 텍스트 표시
+- JButton(버튼표시) 버튼 생성<br>
+ 		**액션 리스너 추가** (ActionListener라는 **인터페이스** 이용해서 **익명함수** 선언 : <br>
+ 		JButton.addActionListener(new ActionListener() {<br>
+			public void actionPerformed(ActionEvent e) {<br>
+				(여기에 내용 추가)<br>
+			}<br>
+
+- JTextField(기본내용) 글자 작성 공간<br>
+ 		JTextField.getText() 입력 글자 읽어오기 
+
