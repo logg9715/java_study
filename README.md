@@ -13,6 +13,7 @@ HashMap.remove(key);		데이터 삭제<br>
 HashMap.clear();			배열 초기화<br>
 <br><br><br>
 
+
 ## ArrayList 예제 (이름을 입력받아서 가장 긴 값 출력)
 - 특징 : 스레드 동기화 기능 없음
 - 개발자가 직접 작성해야 함
