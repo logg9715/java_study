@@ -8,9 +8,9 @@
 
 ### 암기 항목
 **HashMap.put(key, value);**	데이터 추가 <br>
-**HashMap.get(key);		데이터 출력<br>
-HashMap.remove(key);		데이터 삭제<br>
-HashMap.clear();			배열 초기화<br>
+**HashMap.get(key);**		데이터 출력<br>
+**HashMap.remove(key);**		데이터 삭제<br>
+**HashMap.clear();**			배열 초기화<br>
 <br><br><br>
 
 
@@ -22,7 +22,7 @@ HashMap.clear();			배열 초기화<br>
 - 임의의 위치 데이터 삭제 가능	.remove(index)
 
 ### 암기 항목 : 
- String.length()<br>
+ **String.length()**<br>
  <br><br><br>
 
 
@@ -39,14 +39,14 @@ HashMap.clear();			배열 초기화<br>
 - 컬렉션에 대한 연산 수행
  
 ### 암기 항목 :
- collections.sort(list);							배열 정렬 (오름차순, 숫자>대문자>소문자) <br>
- collections.reverse(list);						배열 반전<br>
- collections.max(list); .min(list) => data;		최대, 최솟값 찾기<br>
- collections.binarySearch(list, data) => index;	특정 값 검색<br>
+ **collections.sort(list);**							배열 정렬 (오름차순, 숫자>대문자>소문자) <br>
+ **collections.reverse(list);**						배열 반전<br>
+ **collections.max(list); .min(list)** => data;		최대, 최솟값 찾기<br>
+ **collections.binarySearch(list, data)** => index;	특정 값 검색<br>
  <br><br><br>
  
  ## 자바의 입출력 스트림 
-- 단방향 (입출력 동시에는 불가)
+- **단방향** (입출력 동시에는 불가)
 - 기본 단위 : 바이트(InputStream, OutputStream), 문자
 - 선입선출
 
@@ -57,7 +57,7 @@ HashMap.clear();			배열 초기화<br>
 - Reader, Writer
 - FileReader, FileWriter		파일에서 문자 데이터 입출력
 ### 암기 항목 :
-.read(); 					파일 읽기 (int값, 읽을 항목이 없으면 **-1 출력**된다)
+**.read();** 					파일 읽기 (int값, 읽을 항목이 없으면 **-1 출력**된다)
 
 ## 버퍼 스트림
 - 버퍼를 가진 스트림
@@ -66,7 +66,7 @@ HashMap.clear();			배열 초기화<br>
 - BufferedReader, BufferedWriter			(문자 버퍼)
 - **.close (버퍼 닫기)**
 ### 암기 항목 :
- .read(); 					파일 읽기 (int값, 읽을 항목이 없으면 -1 출력된다)<br>
- .write(int);					파일 출력 (주로 .read에로 저장한 int값을 사용)<br>
+ **.read();** 					파일 읽기 (int값, 읽을 항목이 없으면 -1 출력된다)<br>
+ **.write(int);**					파일 출력 (주로 .read에로 저장한 int값을 사용)<br>
 <br><br><br>
 
