@@ -45,7 +45,7 @@ HashMap.clear();			배열 초기화<br>
 ### 암기 항목 :
 .read(); 					파일 읽기 (int값, 읽을 항목이 없으면 -1 출력된다)
 
-### 버퍼 스트림
+## 버퍼 스트림
 - 버퍼를 가진 스트림
 - 입출력 데이터를 임시저장하는 '버퍼'를 이용하여 효율 향상
 - BufferedInputStream BufferedOutputStream	(바이트)
