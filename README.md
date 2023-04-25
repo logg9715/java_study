@@ -14,17 +14,17 @@ HashMap.clear();			배열 초기화<br>
 
 
 ----
-## 
- LinkedList 예제 (배열 수정하며 출력하기)
- ArrayList와 비슷
- 요소 객체들이 양방향으로 연결되어 관리됨
- 요소는 맨 앞, 뒤 추가 가능
- 중간에 요소 삽입 가능
- 맨 앞,뒤 추가&삭제 기능 -> 스택이나 큐로 사용 가능
+## LinkedList 예제 (배열 수정하며 출력하기)
+- ArrayList와 비슷
+- 요소 객체들이 양방향으로 연결되어 관리됨
+- 요소는 맨 앞, 뒤 추가 가능
+- 중간에 요소 삽입 가능
+- 맨 앞,뒤 추가&삭제 기능 -> 스택이나 큐로 사용 가능
 
- collections 클래스
- 컬렉션에 대한 연산 수행
- 암기 항목 :
+## collections 클래스
+- 컬렉션에 대한 연산 수행
+ 
+### 암기 항목 :
  collections.sort(list);							배열 정렬 (오름차순, 숫자>대문자>소문자)
  collections.reverse(list);						배열 반전
  collections.max(list); .min(list) => data;		최대, 최솟값 찾기
