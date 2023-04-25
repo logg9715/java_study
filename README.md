@@ -4,7 +4,7 @@
 ## 해쉬맵 예제 (영어를 입력하여 한글 데이터 찾기, exit로 종료)
 - (key, value)로 구성
 - 반드시 key값으로만 데이터 겁색 
-- 특징 : 삽입 삭제 검색이 빠름
+- 특징 : **삽입 삭제 검색이 빠름**
 
 ### 암기 항목
 HashMap.put(key, value);	데이터 추가 <br>
@@ -30,7 +30,7 @@ HashMap.clear();			배열 초기화<br>
 
 ## LinkedList 예제 (배열 수정하며 출력하기)
 - ArrayList와 비슷
-- 요소 객체들이 양방향으로 연결되어 관리됨
+- 요소 객체들이 **양방향**으로 연결되어 관리됨
 - 요소는 맨 앞, 뒤 추가 가능
 - 중간에 요소 삽입 가능
 - 맨 앞,뒤 추가&삭제 기능 -> 스택이나 큐로 사용 가능
@@ -51,20 +51,20 @@ HashMap.clear();			배열 초기화<br>
 - 선입선출
 
 ## 문자 스트림 
-- (try catch문 필수!!) 
-- catch문 : e.printStackTrace (필수!!)
-- (catch문의 인자는 Exception e가 꼭 들어가야함!!)
+- **(try catch문 필수!!)** 
+- catch문 : **e.printStackTrace** (필수!!)
+- (catch문의 인자는 **Exception e**가 꼭 들어가야함!!)
 - Reader, Writer
 - FileReader, FileWriter		파일에서 문자 데이터 입출력
 ### 암기 항목 :
-.read(); 					파일 읽기 (int값, 읽을 항목이 없으면 -1 출력된다)
+.read(); 					파일 읽기 (int값, 읽을 항목이 없으면 **-1 출력**된다)
 
 ## 버퍼 스트림
 - 버퍼를 가진 스트림
 - 입출력 데이터를 임시저장하는 '버퍼'를 이용하여 효율 향상
 - BufferedInputStream BufferedOutputStream	(바이트)
 - BufferedReader, BufferedWriter			(문자 버퍼)
-- .close (버퍼 닫기)
+- **.close (버퍼 닫기)**
 ### 암기 항목 :
  .read(); 					파일 읽기 (int값, 읽을 항목이 없으면 -1 출력된다)<br>
  .write(int);					파일 출력 (주로 .read에로 저장한 int값을 사용)<br>
