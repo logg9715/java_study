@@ -28,7 +28,7 @@
 
 
 
-## LinkedList 예제 (배열 수정하며 출력하기)
+## [LinkedList 예제](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/LinkedList_Collections_Ex.java) (배열 수정하며 출력하기)
 - ArrayList와 비슷
 - 요소 객체들이 **양방향**으로 연결되어 관리됨
 - 요소는 맨 앞, 뒤 추가 가능
@@ -50,7 +50,7 @@
 - 기본 단위 : 바이트(InputStream, OutputStream), 문자
 - 선입선출
 
-## 문자 스트림 
+## [문자 스트림](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/InOutStreamEx.java) 
 - **(try catch문 필수!!)** 
 - catch문 : **e.printStackTrace** (필수!!)
 - (catch문의 인자는 **Exception e**가 꼭 들어가야함!!)
@@ -97,7 +97,7 @@
 - con.add(컴포넌트 객체)
 <br><br><br>
 
-## GridLayout
+## [GridLayout](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/GridEx.java)
 - 세로축 가로축을 지정하여, 좌측 상단부터 칸을 채워나간다.
 ### 암기 항목 : 
  **new GridLayout**(세로축, 가로축) <br>
@@ -106,24 +106,24 @@
  <br><br><br>
  
  
-##  FlowLayout
+##  [FlowLayout](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/FlowLayoutEx.java)
 - 정렬 방향을 지정하고, 화면 크기에 따라 객체를 정렬시킨다.
 ### 암기 항목 :
 - new FlowLayout(정렬방향, 수직간격, 수평간격) <br>
 - 정렬방향 => FlowLayout.RIGHT, .LEFT, .CENTER 등등.. <br>
 <br><br><br>
 
-### BorderLayout
+### [BorderLayout](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/BorderEx.java)
 - 컨테이너 기본 레이아웃
 - BorderLayout.SOUTH, .NORTH, .EAST, .WEST, .CENTER 다섯 구역으로 분할
 <br><br><br>
 
-## JPanel
+## [JPanel](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/PanelEx.java)
 - **JPanel pan = new JPanel();** 객체를 새로 생성하고 요소들을 여기에 저장 >> **pan.add(new JLabel("aa"));** 
 - 이후 마지막에만 JPanel 객체를 **con.add(pan)**로 컨테이너에 추가하면 됨.
 <br><br><br>
 
-## awt 종류
+## [awt 종류](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/StuEx.java)
 - JLable(내용) 텍스트 표시
 - JButton(버튼표시) 버튼 생성<br>
  		**액션 리스너 추가** (ActionListener라는 **인터페이스** 이용해서 **익명함수** 선언 : <br>
