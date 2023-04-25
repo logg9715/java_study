@@ -11,7 +11,7 @@ HashMap.put(key, value);	데이터 추가 <br>
 HashMap.get(key);		데이터 출력<br>
 HashMap.remove(key);		데이터 삭제<br>
 HashMap.clear();			배열 초기화<br>
-
+<br><br><br>
 
 
 ## LinkedList 예제 (배열 수정하며 출력하기)
