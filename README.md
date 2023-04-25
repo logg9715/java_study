@@ -25,7 +25,7 @@ HashMap.clear();			배열 초기화<br>
 - 컬렉션에 대한 연산 수행
  
 ### 암기 항목 :
- collections.sort(list);							배열 정렬 (오름차순, 숫자>대문자>소문자)
- collections.reverse(list);						배열 반전
- collections.max(list); .min(list) => data;		최대, 최솟값 찾기
- collections.binarySearch(list, data) => index;	특정 값 검색
+ collections.sort(list);							배열 정렬 (오름차순, 숫자>대문자>소문자) <br>
+ collections.reverse(list);						배열 반전<br>
+ collections.max(list); .min(list) => data;		최대, 최솟값 찾기<br>
+ collections.binarySearch(list, data) => index;	특정 값 검색<br>
