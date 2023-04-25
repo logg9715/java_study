@@ -113,7 +113,7 @@
 - 정렬방향 => FlowLayout.RIGHT, .LEFT, .CENTER 등등.. <br>
 <br><br><br>
 
-### [BorderLayout](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/BorderEx.java)
+## [BorderLayout](https://github.com/logg9715/java_study/blob/main/%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC%20%EB%B3%B5%EC%8A%B5/BorderEx.java)
 - 컨테이너 기본 레이아웃
 - BorderLayout.SOUTH, .NORTH, .EAST, .WEST, .CENTER 다섯 구역으로 분할
 <br><br><br>
