@@ -136,3 +136,5 @@
  		**JTextField.getText()** 입력 글자 읽어오기 
 		
 # connector j 다운로드 https://dev.mysql.com/downloads/connector/j/   
+
+comunication error : url 잘못됨   
