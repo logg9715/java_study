@@ -136,5 +136,4 @@
  		**JTextField.getText()** 입력 글자 읽어오기 
 		
 # connector j 다운로드 https://dev.mysql.com/downloads/connector/j/   
-
-comunication error : url 잘못됨   
+platform independent 의zip설치> 폴더 내의 jar파일만 빼서 program Files/java/에 넣기> 빌드 패스에서 jar 파일 추가   
