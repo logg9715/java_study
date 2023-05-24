@@ -135,5 +135,6 @@
 - JTextField(기본내용) 글자 작성 공간<br>
  		**JTextField.getText()** 입력 글자 읽어오기 
 		
-# connector j 다운로드 https://dev.mysql.com/downloads/connector/j/   
+# connector j 다운로드    
+https://dev.mysql.com/downloads/connector/j/      
 platform independent 의zip설치> 폴더 내의 jar파일만 빼서 program Files/java/에 넣기> 빌드 패스에서 jar 파일 추가   
